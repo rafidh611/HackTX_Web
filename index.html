@@ -1,14 +1,120 @@
 {% extends 'base.html' %}
 
 {% block head%}
-<title>Test</title>
+    <meta charset="utf-8">
 {% endblock %}
 
 {% block body%}
-<div>
-    <h1>Test Title</h1>
-    <input type="submit" value="Update">
-    <a href="/delete/"> delete</a>
+<h2 class="w3-padding-small w3-margin w3-Jumbo">Brief Description</h2>
+<div class="w3-padding-small w3-margin w3-large">
+    <p>This website was made to visualize the SAT scores of New York City and its correlation with median incomes of 5 counties in the city. 
+        Moreover, it includes a Machine Learning model that predicts the SAT score of a New York City student based on the school location, demographics of the school, and school size. 
+    </p>
 </div>
 
+<section id = "sec-2">
+    <div class = "container">
+
+        <div class='tableauPlaceholder' id='viz1603570284487' style='left: 75px; top: 70px;'>
+            <noscript>
+                <a href='#'>
+                    <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;R4&#47;R4QHFRQH4&#47;1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+        <object class='tableauViz'  style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='path' value='shared&#47;R4QHFRQH4' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;R4&#47;R4QHFRQH4&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en' />
+        </object>
+        </div>                
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1603570284487');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            vizElement.style.width='65%';
+            vizElement.style.height=(divElement.offsetWidth*0.35)+'px';                    
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+
+        </script>
+
+        <div class='tableauPlaceholder' id='viz1603572291334' style='left: 800px; top: -468px;'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NY&#47;NYCSAT_16035612047560&#47;AVGMath&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='NYCSAT_16035612047560&#47;AVGMath' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NY&#47;NYCSAT_16035612047560&#47;AVGMath&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1603572291334');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='65%';vizElement.style.height=(divElement.offsetWidth*0.35)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        <div class='tableauPlaceholder' id='viz1603572325377' style='left: 75px; top: -300px;'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NY&#47;NYCSAT_16035612047560&#47;AVGReading&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='NYCSAT_16035612047560&#47;AVGReading' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NY&#47;NYCSAT_16035612047560&#47;AVGReading&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1603572325377');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='65%';vizElement.style.height=(divElement.offsetWidth*0.35) + 'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';           vizElement.parentNode.insertBefore(scriptElement, vizElement);                         </script>
+        <div class='tableauPlaceholder' id='viz1603572376449' style='left: 800px; top: -840px'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NY&#47;NYCSAT_16035612047560&#47;AVGWriting&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='NYCSAT_16035612047560&#47;AVGWriting' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NY&#47;NYCSAT_16035612047560&#47;AVGWriting&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1603572376449');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='65%';vizElement.style.height=(divElement.offsetWidth*0.35) + 'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    
+    </div>
+
+</section>
+</div>
+    <section id = "sec-4" class="w3-padding-large w3-margin w3-small" style="text-align: center;">
+        <div class="container">
+            <!-- this is where the questions go -->
+            <form method="POST" action="/send">
+                <p class = "w3-large">Enter Highschool City:</p>
+                <div class="form-group">
+                    <input type="text" name="city">
+                </div>
+                <p class = "w3-large">Enter Highschool Zip Code:</p>
+                <div class="form-group">
+                    <input type="text" name="zipc">
+                </div>
+                <p class = "w3-large">Enter Highschool Demographic (as percentage):</p>
+                <div class="w3-medium">White:</div>
+                <div class="form-group">
+                    <input type="text" name="demo1">
+                </div>
+                <div class="w3-medium">Black or African American:</div>
+                <div class="form-group">
+                    <input type="text" name="demo2">
+                </div>
+                <div class="w3-medium">Asian:</div>
+                <div class="form-group">
+                    <input type="text" name="demo3">
+                </div>
+                <div class="w3-medium">Hispanic:</div>
+                <div class="form-group">
+                    <input type="text" name="demo4">
+                </div>
+                <p class = "w3-large">What is student enrollment at your school like?</p>
+                <div class="form-group">
+                    <input type="text" name="student">
+                </div>
+                <p class = "w3-large">Number of Highschool Students who took the SAT (as percentage):</p>
+                <div class="form-group">
+                    <input type="text" name="student">
+                </div>
+                <input class="btn btn-primary " type="submit" value="submit">
+            </form>
+        </div>
+    </section>
+
+
+
+
+<h1 class="w3-padding-small w3-margin w3-Jumbo">About</h1>
+<div class="w3-padding-small w3-margin w3-large">
+    <p>
+        A lot of buzz has been generated recently about the efficacy of standardized testing in the college admissions process. Many colleges, such as the University of Chicago and the University of California system have eliminated standardized testing as a requirement in their admissions. The reason behind these decisions is that there exists a large achievement gap between wealthy and poor students, and white and minority students. Moreover, the SAT and ACT are not particularly good indicators of college success. <br> <br>
+        That is where this project comes in. We decided to study New York city because of its large population size and great diversity. We explore various factors including high school location, student demographics, and school size. We observed a close relation between these factors and performance on the SAT. We built a machine learning model using scikit-learn to predict SAT scores based on these factors. Perhaps unfortunately, our model achieved nearly 80% accuracy in predicting SAT scores. It’s disappointing that SAT scores are so deterministic based on these factors, rather than being true measures of what students are capable of. This is corroborated by the map showing household income by county. We noticed that schools in the poorer areas of the city, such as the Bronx, had dramatically lower test scores than schools in Manhattan. <br><br>
+        We achieved this result through careful tests with machine learning algorithms provided by the scikit-learn library. We experimented with popular ML algorithms including k-nearest neighbors, linear regression, and gradient boosting to discern which one is best. We selected a suitable data set from Kaggle that included various categories we felt would be important for our research. We selected influential categories such as borough, ZIP Code, student demographics, and school size in order to build a model to predict the SAT scores for the Math, Reading, and Writing sections. This model is then useful for curious visitors of our website to test out their school’s SAT averages,but it is also a testament to how deterministic the institution can be.
+
+    </p>
+</div>
+
+<h2>Further Reading</h2>
+<div class = 'w3-padding-small w3-margin w3-large'>
+    <p>
+        https://www.latimes.com/california/story/2020-06-03/uc-is-dropping-the-sat-and-act-but-high-school-counselors-say-students-should-take-the-test 
+        https://www.washingtonpost.com/local/education/a-shake-up-in-elite-admissions-u-chicago-drops-satact-testing-requirement/2018/06/13/442a5e14-6efd-11e8-bd50-b80389a4e569_story.html
+        https://news.uchicago.edu/story/test-scores-dont-stack-gpas-predicting-college-success
+    </p>
+</div>
 {% endblock %}
