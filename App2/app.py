@@ -29,7 +29,7 @@ def w_learning(zip, demo1, demo2, demo3, demo4, enroll, satpercent):
 @app.route('/', methods = ['GET', 'POST'])
 def index():
     print("We made it here!")
-    if request.method == 'POST':
+    if request.method == 'POST':  
         buroughs = request.form["buroughs"] # String
         print("Buroughs: " , buroughs)
         zip_code = request.form["zipcode"] # String
